@@ -9,7 +9,7 @@ public class Action implements Serializable {
 
 	private eAction eAction;
 	private LoanRequest LoanRequest;
-	
+
 	public Action(eNums.eAction eAction) {
 		super();
 		this.eAction = eAction;
@@ -26,8 +26,5 @@ public class Action implements Serializable {
 	public void setLoanRequest(LoanRequest LoanRequest) {
 		this.LoanRequest = LoanRequest;
 	}
-	
-	
-	
-	
+
 }
